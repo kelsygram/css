@@ -2,5 +2,107 @@
 /* One style is provided as example. */
 
 h1 {
-    color: green;
+  color: green;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+body {
+  font:  15px arial;
+  margin: 0  auto;
+  width: 900px;
+  padding: 50px 0 0 0;
+  background-image: url("images/hard-paper-texture.jpg");
+}
+
+.page-header {
+  text-align: center;
+}
+
+footer.content-footer {
+  color: #fff;
+}
+
+section {
+  float: left;
+  width: 60%;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+aside.more-info {
+  float: right;
+  width: 40%;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.box {
+  background-color: #764B8E;
+  padding: 10px;
+
+
+}
+
+.box a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer.page-footer a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer.page-footer {
+  background-color: #764B8E;
+  width: auto;
+  color: #fff;
+  padding: 25px;
+  height: auto;
+}
+
+footer.page-footer li {
+  background-color: #3D1255;
+  padding: 5px;
+  list-style-type: none;
+  width: 30%;
+  margin-top: 10px;
+}
+
+footer.content-footer {
+  color: #000;
+}
+
+.info-links li {
+  margin-top: 10px;
+  list-style-type: none;
+  width: 75%;
+  background-color: #3D1255;
+  padding: 5px;
+  color: #fff;
+
+}
+
+.social-links li {
+  display: inline;
+  list-style-type: none;
+  width: 75%;
+  background-color: #3D1255;
+  padding: 5px;
+  color: #fff;
+}
+
+.poem li {
+  list-style-type: none;
+}
+
+.poem::first-letter {
+  float: left;
+  font-size: 40px;
+  line-height: 1;
+  margin: 7px 5px 0 0;
 }
